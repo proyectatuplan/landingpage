@@ -1,75 +1,158 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecta tu Plan - Rápidamente construye tu plan proyecta con nosotros tus IDEAS.</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="img/favicon.ico">
-</head>
-<body>
+<!DOCTYPE html>
 
-    <div class="px-44"><!-- CONTENT WRAPPER -->
-        <div>
-            <nav>
-                <div class="relative flex items-center border-b-2 border-gray-200 mb-12 w-240 h-16 bg-white-500">
-                    <button class="group leading-6 font-medium flex items-center space-x-3 hover:text-gray-600 transition-colors duration-200 w-1/2 py-6">
-                        <div class="absolute left-1">
-                            <h1>
-                                Búsqueda rápida 
-                                <div class="absolute text-base text-gray-300 -top-1 left-32 w-20 h-8 rounded-lg border-2">Ctrl + K</div>
-                            </h1>
-                            
-                        </div>
-                    </button>
-                    <div class="absolute right-12">
-                        <h1 class="font-medium hover:text-gray-600 transition-colors duration-200 animate-pulse">
-                            <a href="#">Documentos</a>
-                            <a href="#" class="text-red-500">Gratis</a>
-                        </h1>
-                    </div>
-                    <!--<div class="absolute top-12 right-6 -mr-1 -mt-1 w-4 h-4 rounded-full bg-red-500 animate-bounce"></div>-->
-                    
-                </div>
-            </nav>
-        </div><!-- end Nav -->
-        <div class="mt-20">
-            <img src="img/Logo.svg" width="400" alt="proyectatuplan">
-        </div>
-        <div class="mt-12">
-            <h1 class="text-7xl text-gray-900 font-extrabold">
-                Rápidamente construye tu plan
-            </h1>
-            <h1 class="text-7xl text-gray-900 font-extrabold">
-                proyecta con nosotros tus IDEAS.
-            </h1>
-        </div>
-        <div class="px-2 mt-12 pr-32">
-            <p class="text-3xl semi-bold">
-                El primer paso es un 
-                <code class="font-mono text-2xl text-gray-900 font-bold">[business plan]</code>
-                , porque es mucho mejor planificar tus emprendimientos a comenzar a ciegas, construye con nosotros un informe atractivo y muy bien documentado para la proyección de tu negocio.
-            </p>
-        </div>
-        <div>
-            <div class="mt-10 relative w-56">
-                <button class="w-48 h-10 text-gray-900 shadow-md bg-yellow-300 text-2xl font-semibold rounded-2xl hover:text-white hover:bg-red-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2">Empezar</button>
-                <div class="absolute top-4 right-0 -mr-1 -mt-1 w-4 h-4 rounded-full bg-yellow-500 animate-ping"></div>
-                <div class="absolute top-4 right-0 -mr-1 -mt-1 w-4 h-4 rounded-full bg-red-500 animate-pulse"></div>
-            </div>
-        </div>
-        <main class="mt-12">
-            <div class="h-80 bg-gray-300 rounded-lg">
-                <div class="relative transform -rotate-1 w-auto h-80 bg-gradient-to-br from-blue-400 to-blue-900 rounded-lg">
-                    <div class="absolute top-0 left-32 transform rotate-1 w-80 h-72 bg-white rounded-2xl transition-all ease-in-out duration-1000 transform translate-x-0 slide">
-                        <img class="absolute top-6 w-full" src="img/P1_E1.gif" alt="Primera Etapa">
-                    </div>
-                    <div class="absolute -top-10 right-10 transform rotate-1 w-1/2 h-96 bg-gray-900">
-                    <div class="absolute top-10 w-full h-1 bg-gradient-to-br from-green-400 to-green-900"></div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-    
+
+<html lang="sp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>C E N T E N A R I O | Jardín de Eventos</title>
+
+		
+		<!-- WEB FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		
+		<!-- BOOTSTRAP -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- FONT AWESOME -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- CUSTOM STYLING -->
+		<link href="css/styles.css" rel="stylesheet">
+		<!-- PRELOADER -->	
+		<link href="css/loader.css" rel="stylesheet">
+			
+	</head>
+	
+<body>
+	<!-- PRELOADER -->
+		<div id="loader-wrapper">
+			<div id="loader"><div class="sk-spinner sk-spinner-cube-grid"><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div><div class="sk-cube"></div></div></div>
+		</div>	
+		
+	<!-- HEADER -->
+		<section id="header">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-8">
+						<img class="logo" src="images/logo.png" />
+						<h1 class="white-text">Jardín & Eventos</h1>
+						<h5 class="white-text">Planeemos juntos tu siguiente evento.</h5>
+						<div id="countdown" class="white-text"></div>
+					</div>
+				</div>
+			</div>
+			<div class="animation">
+			<a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+			</div>
+		</section>
+	<!-- HEADER ENDS -->
+		
+	<!-- ABOUT -->
+		<section id="about">
+			<div class="container">
+				<div class="row text-center">
+					<!-- Section 1 -->
+					<div data-sr="enter top over 1s, wait 0.3s, move 24px, reset" class="col-md-4">
+						<img src="images/bautizo.jpg" />
+						<h3>Bautizos</h3>
+						<div class="colored-line-small-center"></div>
+						<p>Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+					</div>
+					<!-- Section 2 -->
+					<div data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset" class="col-md-4 middle">
+						<img src="images/primera_comunion.jpg" />
+						<h3>Primeras Comuniones</h3>
+						<div class="colored-line-small-center"></div>						
+						<p>Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>						
+					</div>
+					<!-- Section 3 -->
+					<div data-sr="enter top over 1s, wait 0.3s, move 24px, reset" class="col-md-4">
+						<img src="images/graduacion.jpg" />
+						<h3>Graduaciones</h3>
+						<div class="colored-line-small-center"></div>
+						<p>Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>						
+					</div>
+				</div>
+			</div>			
+		</section>
+	<!-- ABOUT ENDS -->
+	
+	<!-- SUBSCRIBE -->
+		<section id="subscribe">
+			<div class="container">
+				<i data-sr="ease-in over 1s, reset" class="fa fa-arrows-alt icontop"></i>
+				<div class="row text-center">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 data-sr="enter top over 1s, wait 0.3s, move 24px, reset" class="white-text">El mejor lugar para el mejor evento.</h1>
+						<h2 data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset" class="white-text"><b>Somos tu mejor opción</b></h2>
+						<div class="row text-center">
+						<!-- Section 1 -->
+							<div data-sr="enter top over 1s, wait 0.3s, move 24px, reset" class="col-md-6">
+								<img src="images/mesero.jpg" />
+								<h2 class="white-text"><b>Organización</b></h3>
+							</div>
+						<!-- Section 2 -->
+							<div data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset" class="col-md-6 middle">
+								<img src="images/mesa.jpg" />
+								<h2 class="white-text"><b>Mobiliario</b></h3>
+							</div>
+						<!-- Section 3 -->
+							<div data-sr="enter top over 1s, wait 0.3s, move 24px, reset" class="col-md-12">
+								<img src="images/decoracion.jpg" />
+								<h2 class="white-text"><b>Decoración</b></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+	<!-- SUBSCRIBE ENDS -->
+	
+	<!-- CONTACT US -->
+		<section id="contact">
+			<div class="container">
+				<h1 class="black-text">Nos Ubicamos en</h1>
+				<div class="row text-center">
+					<div class="col-12 tm-call-to-action-col">
+            				<div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=21.015499967966125,%20-101.24797209417372+(El%20Plan)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+          					</div>
+								
+				</div>
+			</div>
+		</section>
+	<!-- CONTACT ENDS -->
+	
+	<!-- FOOTER -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row text-center">	
+					<p>
+						&copy; 2021 Chevy | DESIGN BY J.S.P.C</a>
+						<span class="social">
+							<a href="#"><i class="fa fa-facebook-square"></i></a>
+							<a href="#"><i class="fa fa-twitter-square"></i></a> 
+							<a href="#"><i class="fa fa-google-plus-square"></i></a>
+						</span>
+					</p>
+				</div>
+			</div>		
+		</footer>
+	<!-- FOOTER ENDS -->	
+
+	
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- SMOOTH SCROLL -->
+		<script src="js/smooth-scroll.min.js"></script>
+		<!-- PARALLAX IMG -->
+		<script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- SCROLL REVEAL -->
+		<script src="js/scrollReveal.min.js"></script>
+		<!-- FUNCTIONS -->
+		<script src="js/functions.js"></script>
+
 </body>
 </html>
